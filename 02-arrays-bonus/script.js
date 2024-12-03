@@ -20,10 +20,8 @@ let arrayTemp =[];
 
 for ( let i = 0; i < teachers.length; i++) {
     
-
   if ( teachers[i].length >= 5) {
-    arrayTemp.push(teachers[i]);
-    
+    arrayTemp.push(teachers[i]);  
   }
 }
 
